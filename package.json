@@ -1,0 +1,19 @@
+{
+  "name": "ip9x-homework",
+  "version": "1.0.0",
+  "description": "Решение задач по курсу HowProgrammingWorks/IP9X 1 семестра",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-storchak/IP9X-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-storchak/IP9X-homework/issues"
+  },
+  "homepage": "https://github.com/alex-storchak/IP9X-homework#readme"
+}
