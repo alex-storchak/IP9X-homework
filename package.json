@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/alex-storchak/IP9X-homework/issues"
   },
-  "homepage": "https://github.com/alex-storchak/IP9X-homework#readme"
+  "homepage": "https://github.com/alex-storchak/IP9X-homework#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  }
 }
