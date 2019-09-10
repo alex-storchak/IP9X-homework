@@ -7,4 +7,3 @@ const greeting = name => console.log(`Hello, ${name}`);
 
 greeting('Alexander');
 greeting(name);
-
