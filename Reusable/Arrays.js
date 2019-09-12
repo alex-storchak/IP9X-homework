@@ -6,7 +6,7 @@ const phoneBook = [
 ];
 
 const findPhoneByName = name => {
-    let phone = 'Contact not found';
+    let phone = 'Contact is not found.';
     for (const contact of phoneBook) {
         if (contact.name === name) {
             phone = contact.phone;
