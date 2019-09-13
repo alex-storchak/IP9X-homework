@@ -12,16 +12,16 @@
 */
 
 {
-    const inc = n => ++n;
+  const inc = n => ++n;
 
-    const a = 5;
-    const b = inc(a);
-    console.dir({ a, b });
+  const a = 5;
+  const b = inc(a);
+  console.dir({ a, b });
 }
 
 {
-    const inc = Num => ++Num.n;
-    const obj = { n: 5 };
-    inc(obj);
-    console.dir(obj);
+  const inc = Num => ++Num.n;
+  const obj = { n: 5 };
+  inc(obj);
+  console.dir(obj);
 }
