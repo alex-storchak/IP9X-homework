@@ -36,7 +36,7 @@ for (const item of sample) {
   );
   predefinedTypes[itemType]++;
   dynamicTypes[itemType] = (
-    typeof dynamicTypes[itemType] === 'undefined' ? 1 : ++dynamicTypes[itemType]
+    itemType in dynamicTypes ? ++dynamicTypes[itemType] : 1
   );
 }
 console.dir(predefinedTypes);
